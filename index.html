@@ -64,10 +64,10 @@
             <img src="./images/cover/cover-1.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <div class="slider-text">
-                <h5 class="fs-1 fw-bolder text-primary">
+                <h5 class="fs-1 fw-bolder text-white">
                   Get Started Digital Learning
                 </h5>
-                <p class="text-primary">
+                <p class="text-white">
                   It is a long established fact that a reader will be
                   distracted by the readable content of a page when looking at
                   its layout.
@@ -81,10 +81,10 @@
           <div class="carousel-item rounded" data-bs-interval="4000">
             <img src="./images/cover/cover-2.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder text-primary">
-                Get Started Javascript Basic to advanced
+              <h5 class="fs-1 fw-bolder text-white">
+                Get Started Javascript advanced
               </h5>
-              <p class="text-primary">
+              <p class="text-white">
                 You can contact us anytime for any course related support and
                 help without any inconvenience.
               </p>
@@ -96,10 +96,10 @@
           <div class="carousel-item rounded">
             <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder text-primary">
+              <h5 class="fs-1 fw-bolder text-white">
                 Get Started Fullstack Web Development
               </h5>
-              <p class="text-primary">
+              <p class="text-white">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </p>
@@ -289,23 +289,92 @@
   </section>
 
   <!-- Joining Section -->
-  <section class="joining-section">
+  <section class="joining-section my-lg-5">
     <div class="bg-color container d-flex align-items-center">
       <div class="text-btn-items d-flex px-lg-5">
         <div class="text-items text-white w-50">
           <h1 class="fw-bold">Ready to join?</h1>
-          <p>It is a long established fact that a reader will be distracted by the 
+          <p>It is a long established fact that a reader will be distracted by the
             readable content of a page when looking at its layout.</p>
         </div>
-        <div class="btn-items w-50">
-          <button class="btn btn-outline-white btn-lg text-bg-secondary px-lg-4" type="submit">
+        <div class="btn-items w-50 text-end m-5">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Register Now
           </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Why did you choose this course?"</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-lg-start">
+                  It's important to create a well-rounded answer to this question that shows your interviewer you make educated decisions based on thought and consideration. Provide an answer that showcases your interests and goals. It's also important for your answer to be honest about your feelings, intentions and abilities.
+                </div>      
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
     </div>
   </section>
+
+  <!-- Feedback Section -->
+  <section class="feedback-section container">
+    <div class="feedback-heading">
+      <h1 class="container mt-md-5 pt-md-4 fw-bolder">
+        Meet Our Successfull Students
+      </h1>
+      <p>It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout.</p>
+    </div>
+    <div class="feedback-details row">
+      <div class="students-feedback col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/student/student-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ataul Hossain</h5>
+            <p class="card-text text-muted">UIUX Designer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="students-feedback col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/student/student-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ataul Hossain</h5>
+            <p class="card-text text-muted">UIUX Designer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="students-feedback col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/student/student-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ataul Hossain</h5>
+            <p class="card-text text-muted">UIUX Designer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="students-feedback col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/student/student-4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ataul Hossain</h5>
+            <p class="card-text text-muted">UIUX Designer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
